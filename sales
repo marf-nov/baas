@@ -8,3 +8,4 @@ category_name varchar(25) UNIQUE);
 INSERT INTO categories(category_name)
 VALUES ('Arvuti');
 ```
+
