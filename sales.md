@@ -143,10 +143,46 @@ VALUES (4, 2, 3, 50,500,10);
 <img width="1103" height="658" alt="{51A071BE-97DC-42BF-A120-9BEBC1FFE994}" src="https://github.com/user-attachments/assets/dfadb5a7-8d70-4cdf-aa7d-d63d6f01a15d" />
 
 
+```sql
+--brends
+CREATE TABLE brands(
+brand_id int PRIMARY KEY identity(1,1),
+brand_name varchar(15) UNIQUE);
+
+INSERT INTO brands(brand_name)
+VALUES ('Motorola');
+SELECT * FROM brands;
 
 
+--products
+Create TABLE products(
+product_id int PRIMARY KEY identity(1,1),
+product_name varchar(50) not null,
+brand_id int,
+FOREIGN KEY (brand_id) references  brands(brand_id),
+category_id int,
+FOREIGN KEY (category_id) references categories(category_id),
+model_year int,
+list_price money);
 
+SELECT * FROM products;
 
+INSERT INTO products
+VALUES ('Motorola CB12', 3, 2, 2020, 20026);
+
+--protseduur, mis kuvab tooded kus on hind suurem, kui sisetatud hind
+Create procedure suuremHind
+@hind int
+as
+begin
+    select * from products
+	where list_price >@hind;
+end;
+
+--kutse
+exec suuremhind 20023
+```
+<img width="488" height="231" alt="{68673457-EFD6-4B3F-9579-32B1702BCF6A}" src="https://github.com/user-attachments/assets/87e452d4-e96c-433d-97da-806f1d90cf3b" />
 
 
 
