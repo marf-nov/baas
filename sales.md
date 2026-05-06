@@ -184,6 +184,61 @@ exec suuremhind 20023
 ```
 <img width="488" height="231" alt="{68673457-EFD6-4B3F-9579-32B1702BCF6A}" src="https://github.com/user-attachments/assets/87e452d4-e96c-433d-97da-806f1d90cf3b" />
 
+```sql
+--output parameetrid (min ja max)
+CREATE PROCEDURE minmaxHind
+    @minHind MONEY OUTPUT,
+    @maxHind MONEY OUTPUT
+AS
+BEGIN
+    SELECT 
+        @minHind = MIN(list_price),
+        @maxHind = MAX(list_price)
+    FROM products;
+END;
+
+--kutse
+DECLARE @minHind MONEY, @maxHind MONEY;
+
+EXEC minmaxHind @minHind OUTPUT, @maxHind OUTPUT;
+
+PRINT 'Min hind = ' + CONVERT(varchar, @minHind);
+PRINT 'Max hind = ' + CONVERT(varchar, @maxHind);
+```
+<img width="504" height="310" alt="{5EC5DE18-BF34-492D-93B2-4513842A7E54}" src="https://github.com/user-attachments/assets/a9893015-0fb6-4c95-b5d2-e0cf82157d4b" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
