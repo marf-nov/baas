@@ -40,3 +40,19 @@ end
 --kutse 
 exec kustutaCategories 1
 ```
+
+```sql
+--protsiduur mis kuvab kategooriad sisestatud esimese tahe järgi
+Create procedure otsingtaht
+@taht char(1)
+as
+begin
+   select * from categories
+   where category_name like @taht + '%';
+end
+
+--kutse
+exec otsingtaht 'T'
+```
+<img width="269" height="201" alt="{4DF8F7A5-B2E3-404E-9798-AB42B4D7D1D1}" src="https://github.com/user-attachments/assets/16f4bdd5-b563-4077-b318-bdbc7be67d45" />
+
