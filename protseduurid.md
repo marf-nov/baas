@@ -25,3 +25,18 @@ END;
 --kutse
 EXEC lisaCategories 'Telefon';
 ```
+
+```sql
+-- protsiduur mis kustutab kategooria id järgi
+Create procedure kustutaCategories
+@kustutaid int
+as
+begin
+   select * from categories;
+   delete from categories where category_id=@kustutaid;
+   select * from categories;
+end
+
+--kutse 
+exec kustutaCategories 1
+```
