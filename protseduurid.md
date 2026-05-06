@@ -25,6 +25,7 @@ END;
 --kutse
 EXEC lisaCategories 'Telefon';
 ```
+<img width="272" height="238" alt="{8A7C79A9-E683-4650-BB93-562BFAC75733}" src="https://github.com/user-attachments/assets/f95061d9-177f-4225-b967-b7654c1df76f" />
 
 ```sql
 -- protsiduur mis kustutab kategooria id järgi
@@ -40,6 +41,7 @@ end
 --kutse 
 exec kustutaCategories 1
 ```
+<img width="249" height="395" alt="{02400186-0473-4DF9-B578-688A0C5206AF}" src="https://github.com/user-attachments/assets/575ed2ef-d239-4b23-b1ca-da81e234e21b" />
 
 ```sql
 --protsiduur mis kuvab kategooriad sisestatud esimese tahe järgi
