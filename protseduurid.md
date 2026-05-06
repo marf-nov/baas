@@ -1,7 +1,7 @@
 ## SQL protseduurid
 store protseduur - salvestatud protseduurid - sama mis on funktsioonid programmeerimises, mingi tegevus, mis on salvestatud andmebaasi, ja mida saab autmaatsel teha (INSERT, SELECT, UPDATE)
 
-
+```sql
 --1.categories
 create table categories(
 category_id int PRIMARY KEY identity(1,1),
@@ -24,3 +24,4 @@ BEGIN
 END;
 --kutse
 EXEC lisaCategories 'Telefon';
+```
