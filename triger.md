@@ -1,7 +1,7 @@
 ## Trigerid - päästik
 
 
-[Põhimõisted](README.dm) | [Kasutajad](kasutajad.md) | [TrigeridSQL](triger.md) | [Trigerid XAMPP](xtrigger.md) | [Protseduurid](protseduurid.md) | [Võtmed/Keys](keys.md) | [Küsimused](küsimused.md) | [Sales](sales.md)
+[Põhimõisted](README.dm) | [Kasutajad](kasutaja.md) | [TrigeridSQL](triger.md) | [Trigerid XAMPP](xtrigger.md) | [Protseduurid](protseduurid.md) | [Võtmed/Keys](keys.md) | [Küsimused](küsimused.md) | [Sales](sales.md)
 
 SQL triggerid on spetsiaalsed andmebaasi objektid, mis käivituvad automaatselt, kui toimub teatud sündmus
 ```sql
