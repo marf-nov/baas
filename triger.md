@@ -90,3 +90,6 @@ deny select, delete on linnad to sekretaarMariia;
 ```
 <img width="570" height="169" alt="{180DB6A9-CA99-4857-887F-AD6E1724B824}" src="https://github.com/user-attachments/assets/7aefc9bb-3a5d-444d-9140-d9d312c8b492" />
 <img width="374" height="146" alt="{0630F73F-4F4E-457E-9B2B-F4F7C5A50E52}" src="https://github.com/user-attachments/assets/b078a44b-a224-42c6-892d-d1f06e0c86a5" />
+help
+<img width="350" height="365" alt="{039CCB6C-F195-474C-BEFE-04DD7469D2DA}" src="https://github.com/user-attachments/assets/00551115-b7af-463e-8e98-3393c86c7797" />
+
