@@ -1,3 +1,6 @@
+
+[Põhimõisted](README.dm) | [Kasutajad](-) | [TrigeridSQL](triger.md) | [Trigerid XAMPP](xtrigger.md) | [Protseduurid](protseduurid.md) | [Võtmed/Keys](-) | [Küsimused](küsimused.md) | [Sales](sales.md)
+
 DDL: CREATE TABLE, ALTER TABLE. Andmete defineerimise laused
 <img width="1177" height="264" alt="image" src="https://github.com/user-attachments/assets/4ba0c616-a799-4109-b050-4db2549263f8" />
 <img width="1271" height="447" alt="image" src="https://github.com/user-attachments/assets/3e68eac5-90e5-4652-b3ab-fbcd03e025b8" />
