@@ -1,4 +1,7 @@
-# andmebaasid sales
+# Andmebaasid sales
+
+
+[Põhimõisted](README.dm) | [Kasutajad](-) | [TrigeridSQL](triger.md) | [Trigerid XAMPP](xtrigger.md) | [Protseduurid](protseduurid.md) | [Võtmed/Keys](-) | [Küsimused](küsimused.md) | [Sales](sales.md)
 
 ```sql
 --1.categories
