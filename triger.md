@@ -14,3 +14,4 @@ system_user, --kasutaja mis on sisselogitud serverisse
 concat('linn: ',inserted.linnanimi, 'rahvaarv: ', inserted.rahvaarv)  --andmed tabelist linnad
 FROM inserted;
 ```
+<img width="773" height="726" alt="{734A1D8C-8D69-4ABE-A03B-EE82790571DF}" src="https://github.com/user-attachments/assets/e224a2b8-7321-4a17-acba-efa00e736937" />
