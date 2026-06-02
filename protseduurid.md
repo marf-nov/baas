@@ -1,6 +1,6 @@
 ## SQL protseduurid
 
-[Põhimõisted](README.dm) | [Kasutajad](-) | [TrigeridSQL](triger.md) | [Trigerid XAMPP](xtrigger.md) | [Protseduurid](protseduurid.md) | [Võtmed/Keys](-)
+[Põhimõisted](README.dm) | [Kasutajad](-) | [TrigeridSQL](triger.md) | [Trigerid XAMPP](xtrigger.md) | [Protseduurid](protseduurid.md) | [Võtmed/Keys](-) | [Küsimused](küsimused.md) | [Sales](sales.md)
 
 store protseduur - salvestatud protseduurid - sama mis on funktsioonid programmeerimises, mingi tegevus, mis on salvestatud andmebaasi, ja mida saab autmaatsel teha (INSERT, SELECT, UPDATE)
 
