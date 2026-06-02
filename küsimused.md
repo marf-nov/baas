@@ -1,5 +1,5 @@
 
-[Põhimõisted](README.dm) | [Kasutajad](kasutajad.md) | [TrigeridSQL](triger.md) | [Trigerid XAMPP](xtrigger.md) | [Protseduurid](protseduurid.md) | [Võtmed/Keys](keys.md) | [Küsimused](küsimused.md) | [Sales](sales.md)
+[Põhimõisted](README.dm) | [Kasutajad](kasutaja.md) | [TrigeridSQL](triger.md) | [Trigerid XAMPP](xtrigger.md) | [Protseduurid](protseduurid.md) | [Võtmed/Keys](keys.md) | [Küsimused](küsimused.md) | [Sales](sales.md)
 
 DDL: CREATE TABLE, ALTER TABLE. Andmete defineerimise laused
 <img width="1177" height="264" alt="image" src="https://github.com/user-attachments/assets/4ba0c616-a799-4109-b050-4db2549263f8" />
