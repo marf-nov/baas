@@ -1,6 +1,6 @@
 ##SQL Keys (võtmed andmebaasis)
 
-
+[Põhimõisted](README.dm) | [Kasutajad](-) | [TrigeridSQL](triger.md) | [Trigerid XAMPP](xtrigger.md) | [Protseduurid](protseduurid.md) | [Võtmed/Keys](keys.md) | [Küsimused](küsimused.md) | [Sales](sales.md)
 
 ##Primary Key
 
