@@ -12,3 +12,5 @@
 <img width="816" height="85" alt="{1699B4B8-248D-4C3D-ADA7-6D626DD7393C}" src="https://github.com/user-attachments/assets/b2afa1ef-be6c-4eef-bf80-bb687e0a4766" />
 Loo us kasutaja ja anda õigused ainult linnadele
 <img width="1078" height="570" alt="{A6AF8952-8D7C-426C-8511-F829B6FBBE61}" src="https://github.com/user-attachments/assets/b8633005-b9ea-427c-bfd0-e50fba73dd75" />
+
+<img width="853" height="116" alt="{B0034B50-EF65-4923-9BB7-5348605E629D}" src="https://github.com/user-attachments/assets/f2c813a2-f946-4496-a587-e3cc5ee9591d" />
