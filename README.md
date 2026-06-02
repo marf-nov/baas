@@ -1,6 +1,6 @@
 ## Andmetebaaside komspektid
 
-[Põhimõisted](README.dm) | [Kasutajad](-) | [TrigeridSQL](
+[Põhimõisted](README.dm) | [Kasutajad](-) | [TrigeridSQL](triger.md) | [Trigerid XAMPP](xtrigger.md) | [Protseduurid](protseduurid.md) | Võtmed/Keys](-)
 
 
 
