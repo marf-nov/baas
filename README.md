@@ -1,3 +1,9 @@
+## Andmetebaaside komspektid
+
+[Põhimõisted](README.dm) | [Kasutajad](-) | [TrigeridSQL](
+
+
+
 AndmebaasidLOGITpv24
 
 andmebaaside haldusega seotud sql kood ja konspektid
