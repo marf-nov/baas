@@ -1,7 +1,7 @@
-##SQL Server – Kasutajate autentimine ja õiguste haldamine
+## SQL Server – Kasutajate autentimine ja õiguste haldamine
 
 
-[Põhimõisted](README.dm) | [Kasutajad](kasutajad.md) | [TrigeridSQL](triger.md) | [Trigerid XAMPP](xtrigger.md) | [Protseduurid](protseduurid.md) | [Võtmed/Keys](keys.md) | [Küsimused](küsimused.md) | [Sales](sales.md)
+[Põhimõisted](README.dm) | [Kasutajad](kasutaja.md) | [TrigeridSQL](triger.md) | [Trigerid XAMPP](xtrigger.md) | [Protseduurid](protseduurid.md) | [Võtmed/Keys](keys.md) | [Küsimused](küsimused.md) | [Sales](sales.md)
 
 Mis on autentimine SQL Serveris?
 Autentimine tähendab kasutaja tuvastamist ehk kontrollimist, kas kasutajal on õigus SQL Serverisse sisse logida.
