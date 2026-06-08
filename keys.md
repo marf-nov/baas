@@ -16,6 +16,7 @@ Pealkiri varchar(100)
 )
 ```
 
+<img width="302" height="100" alt="image" src="https://github.com/user-attachments/assets/b6fa51df-e796-43c2-8933-f3d102037d3c" />
 
 
 RaamatID on iga raamatu unikaalne number.
