@@ -96,6 +96,7 @@ PRIMARY KEY (KlientID, TubaID)
 )
 ```
 
+<img width="325" height="130" alt="image" src="https://github.com/user-attachments/assets/84fb70a8-dec1-4124-a81d-d6922f4e5789" />
 
 
 KlientID ja TubaID koos moodustavad võtme.
@@ -104,13 +105,14 @@ KlientID ja TubaID koos moodustavad võtme.
 
 Compound Key on mitmest veerust koosnev võti.
 ```sql
-CREATE TABLE Broneering (
-KlientID int,
-TubaID int,
-PRIMARY KEY (KlientID, TubaID)
+CREATE TABLE Lett(
+InimesteID int,
+IsteID int,
+PRIMARY KEY (InimesteID, IsteID)
 )
 ```
 
+<img width="298" height="130" alt="image" src="https://github.com/user-attachments/assets/2c7655f0-8b5d-4a0d-9b2d-abf405653890" />
 
 
 Raamat ja liige koos määravad ühe laenutuse.
@@ -128,6 +130,7 @@ VIN varchar(50)
 )
 ```
 
+<img width="307" height="158" alt="image" src="https://github.com/user-attachments/assets/ee732f03-cbb7-4487-829b-028451cd7747" />
 
 
 Näited Super Key-dest:
@@ -148,6 +151,7 @@ Email varchar(100) UNIQUE
 )
 ```
 
+<img width="343" height="199" alt="image" src="https://github.com/user-attachments/assets/1b5c6f2a-98e9-4684-8dd2-f63c0814f772" />
 
 
 Kasutajanimi ja Email võivad mõlemad olla Candidate Key.
@@ -162,6 +166,7 @@ Hüüdnimi varchar(50) UNIQUE
 )
 ```
 
+<img width="336" height="147" alt="image" src="https://github.com/user-attachments/assets/a5acfed5-db40-4ed6-93ee-eaf74af22fab" />
 
 
 Primary Key on MängijaID ja Alternate Key on Hüüdnimi.
