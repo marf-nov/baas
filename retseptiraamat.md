@@ -292,17 +292,19 @@ EXEC kustutaKommentaar 161;
 USE RetseptiRaamat;
 
 INSERT INTO toiduaine
-VALUES ('Banaan');
+VALUES ('test1');
 ```
 
-<img width="412" height="306" alt="image" src="https://github.com/user-attachments/assets/b6fe4979-7404-4550-b5a6-af61e14f143a" />
+<img width="440" height="281" alt="image" src="https://github.com/user-attachments/assets/eb29350f-7df9-4950-a73d-9abc22dd1b40" />
+
 
 
 ```sql
 SELECT * FROM kasutaja;
 ```
 
-<img width="419" height="371" alt="image" src="https://github.com/user-attachments/assets/0a82a17c-15d3-401e-85af-67006a79cc31" />
+<img width="494" height="318" alt="image" src="https://github.com/user-attachments/assets/4e718725-3499-475b-9945-f969db7c96a7" />
+
 
 
 ```sql
@@ -310,7 +312,8 @@ UPDATE toiduaine SET toiduaine_nimi='Test'
 WHERE toiduaine_id=1;
 ```
 
-<img width="512" height="261" alt="image" src="https://github.com/user-attachments/assets/b0dd58bb-f3bb-4167-8325-0282e5b0a2e2" />
+<img width="648" height="394" alt="image" src="https://github.com/user-attachments/assets/03a81ba0-f5b5-4ec7-ac00-b1fa798b53bd" />
+
 
 
 
@@ -320,11 +323,40 @@ WHERE kategooria_id=1;
 
 ```
 
-<img width="424" height="324" alt="image" src="https://github.com/user-attachments/assets/d1665dd8-a79b-4964-a782-3883d3e5ad46" />
+<img width="733" height="488" alt="image" src="https://github.com/user-attachments/assets/0cbf6aed-423e-4ade-9cd1-ef19958725ab" />
+
+```sql
+--Manager kontroll
+USE RetseptiRaamat;
+
+Insert INTO retsept
+VALUES ('Test','Test','Test','2026-01-01',4,4);
+```
+
+<img width="543" height="314" alt="image" src="https://github.com/user-attachments/assets/3d95dab0-1d79-42bb-b49c-f7f27bb218e0" />
 
 
+```sql
+SELECT * FROM retsept;
+```
+
+<img width="830" height="301" alt="image" src="https://github.com/user-attachments/assets/03fb1820-82ec-4b57-95bd-19d1839e678c" />
 
 
+```sql
+INSERT INTO kasutaja
+VALUES('Test','Test','Test@gmail.com');
+```
+
+<img width="708" height="289" alt="image" src="https://github.com/user-attachments/assets/1b6fd133-5212-465e-9bad-f5387d2c5e57" />
+
+
+```sql
+INSERT INTO toiduaine
+VALUES('Test');
+```
+
+<img width="743" height="297" alt="image" src="https://github.com/user-attachments/assets/e5042a18-4016-46f2-9a6f-4cc4146e0539" />
 
 
 
