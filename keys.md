@@ -80,6 +80,8 @@ Pealkiri varchar(100)
 ```
 
 
+<img width="357" height="131" alt="image" src="https://github.com/user-attachments/assets/35977d58-954b-4313-b62e-35262194c922" />
+
 
 FilmID on üksik võti.
 
