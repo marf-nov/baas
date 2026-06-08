@@ -61,6 +61,7 @@ retsept_id INT,
 FOREIGN KEY (retsept_id) REFERENCES retsept(retsept_id));
 SELECT * FROM tehtud;
 ```
+
 <img width="252" height="306" alt="image" src="https://github.com/user-attachments/assets/18981812-bd16-4283-b796-ee81b1562a2d" />
 
 ```sql
@@ -80,7 +81,9 @@ END;
 --kutse
 EXEC lisaKasutaja 'Yelisaveta','Ilnitskaja','eli@gmail.com';
 ```
+
 <img width="690" height="249" alt="image" src="https://github.com/user-attachments/assets/b67bbbe7-e6d2-4f2d-8212-0e3845f2c88a" />
+
 ```sql
 --Lisamine kategooria
 CREATE Procedure lisaKategooria
@@ -94,10 +97,10 @@ END;
 
 --kutse
 EXEC lisaKategooria 'Magus toit';
-
 ```
 
 <img width="511" height="510" alt="image" src="https://github.com/user-attachments/assets/ccb3a58e-ed36-478b-bf7b-dbae6cbba973" />
+
 ```sql
 --Lisamine toiduaine
 CREATE Procedure lisaToiduaine
