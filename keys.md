@@ -41,6 +41,10 @@ FOREIGN KEY (OsakondID) REFERENCES Osakond(OsakondID)
 )
 ```
 
+<img width="294" height="99" alt="image" src="https://github.com/user-attachments/assets/1369148b-fd6b-48f2-8e64-7da6ca3f80c9" />
+
+
+<img width="290" height="113" alt="image" src="https://github.com/user-attachments/assets/935a7c1a-8921-44c8-8b71-d256e5a1af5c" />
 
 
 Töötaja on seotud osakonnaga läbi OsakondID.
