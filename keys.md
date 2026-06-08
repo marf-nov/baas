@@ -64,6 +64,8 @@ Kasutajanimi varchar(50) UNIQUE
 ```
 
 
+<img width="327" height="156" alt="image" src="https://github.com/user-attachments/assets/df297ad9-e4e7-4307-aa8a-87525809168a" />
+
 
 Kasutajanimed peavad olema erinevad.
 
