@@ -287,6 +287,40 @@ EXEC kustutaKommentaar 161;
 <img width="415" height="417" alt="image" src="https://github.com/user-attachments/assets/1638ded2-e76a-4b8c-b8de-042d134a59f5" />
 
 
+```sql
+--Staff kontroll 
+USE RetseptiRaamat;
+
+INSERT INTO toiduaine
+VALUES ('Banaan');
+```
+
+<img width="412" height="306" alt="image" src="https://github.com/user-attachments/assets/b6fe4979-7404-4550-b5a6-af61e14f143a" />
+
+
+```sql
+SELECT * FROM kasutaja;
+```
+
+<img width="419" height="371" alt="image" src="https://github.com/user-attachments/assets/0a82a17c-15d3-401e-85af-67006a79cc31" />
+
+
+```sql
+UPDATE toiduaine SET toiduaine_nimi='Test'
+WHERE toiduaine_id=1;
+```
+
+<img width="512" height="261" alt="image" src="https://github.com/user-attachments/assets/b0dd58bb-f3bb-4167-8325-0282e5b0a2e2" />
+
+
+
+```sql
+DELETE FROM kategooria
+WHERE kategooria_id=1;
+
+```
+
+<img width="424" height="324" alt="image" src="https://github.com/user-attachments/assets/d1665dd8-a79b-4964-a782-3883d3e5ad46" />
 
 
 
