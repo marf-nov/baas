@@ -213,6 +213,7 @@ BEGIN
 
 END;
 ```
+
 <img width="691" height="274" alt="image" src="https://github.com/user-attachments/assets/3e4a50e2-aeb7-43e6-a3fa-2f4bb022cce0" />
 
 ```sql
@@ -221,6 +222,7 @@ END;
 SELECT kasutaja.eesnimi, kasutaja.perenimi, retsept.retsepti_nimi FROM kasutaja, retsept
 WHERE kasutaja.kasutaja_id=retsept.kasutaja_id;
 ```
+
 <img width="761" height="276" alt="image" src="https://github.com/user-attachments/assets/ac7a4bd7-a358-479a-887f-1ce454676945" />
 
 ```sql
@@ -228,13 +230,17 @@ WHERE kasutaja.kasutaja_id=retsept.kasutaja_id;
 SELECT retsept.retsepti_nimi,kategooria.kategooria_nimi FROM retsept, kategooria
 WHERE retsept.kategooria_id=kategooria.kategooria_id;
 ```
+
 <img width="800" height="238" alt="image" src="https://github.com/user-attachments/assets/20e917a9-d438-427a-b667-d38bcdfe88c1" />
+
 ```sql
 --Päring kuvab koostises kasutatud toiduained ja nende kogused.
 SELECT toiduaine.toiduaine_nimi, koostis.kogus FROM toiduaine, koostis
 WHERE toiduaine.toiduaine_id=koostis.toiduaine_id;
 ```
+
 <img width="785" height="216" alt="image" src="https://github.com/user-attachments/assets/240a7d45-3899-42fe-834e-140c1162f00c" />
+
 ```sql
 --Too lisamine
 --kommentaar table
@@ -257,6 +263,7 @@ END;
 
 EXEC lisaKommentaar 'Väga hea töö', 4;
 ```
+
 <img width="489" height="438" alt="image" src="https://github.com/user-attachments/assets/ef0eea69-c7a0-4c43-af11-8f6ad93d70f4" />
 
 
