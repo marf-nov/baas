@@ -89,7 +89,7 @@ FilmID on üksik võti.
 
 Composite Key koosneb mitmest veerust.
 ```sql
-CREATE TABLE Broneering (
+CREATE TABLE Broneerimine (
 KlientID int,
 TubaID int,
 PRIMARY KEY (KlientID, TubaID)
