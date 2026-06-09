@@ -1,6 +1,6 @@
 
 
-[Põhimõisted](README.dm) | [Kasutajad](kasutaja.md) | [TrigeridSQL](triger.md) | [Trigerid XAMPP](xtrigger.md) | [Protseduurid](protseduurid.md) | [Võtmed/Keys](keys.md) | [Küsimused](küsimused.md) | [Sales](sales.md) | [Retseptiraamat](retseptiraamat.md)
+[Põhimõisted](README.md) | [Kasutajad](kasutaja.md) | [TrigeridSQL](triger.md) | [Trigerid XAMPP](xtrigger.md) | [Protseduurid](protseduurid.md) | [Võtmed/Keys](keys.md) | [Küsimused](küsimused.md) | [Sales](sales.md) | [Retseptiraamat](retseptiraamat.md)
 
 
 <img width="614" height="662" alt="{C274C261-9033-4E8C-A1E1-351B3BF31DF3}" src="https://github.com/user-attachments/assets/64e6c1e6-f866-4962-9f26-fd8f402d1f47" />
