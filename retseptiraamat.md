@@ -1,5 +1,5 @@
 
-[Põhimõisted](README.dm) | [Kasutajad](kasutaja.md) | [TrigeridSQL](triger.md) | [Trigerid XAMPP](xtrigger.md) | [Protseduurid](protseduurid.md) | [Võtmed/Keys](keys.md) | [Küsimused](küsimused.md) | [Sales](sales.md) | [Retseptiraamat](retseptiraamat.md)
+[Põhimõisted](README.md) | [Kasutajad](kasutaja.md) | [TrigeridSQL](triger.md) | [Trigerid XAMPP](xtrigger.md) | [Protseduurid](protseduurid.md) | [Võtmed/Keys](keys.md) | [Küsimused](küsimused.md) | [Sales](sales.md) | [Retseptiraamat](retseptiraamat.md)
 
 ```sql
 --Tabelid
